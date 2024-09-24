@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(241, 241, 241);
+    font-family: "Anek Latin";
+    font-size: 18px;
+    padding-top: 1em;
+    padding-bottom: .25em;
+}
+
+
+body{
+    background-color: rgb(37, 37, 37);
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 28px;
+    
+}
+
+h2{
+    font-weight: 300;
+    font-size: 24px;
+}
+
+h4{
+    font-weight: 200;
+    font-size: 20px;
+
+}
+
+h5{
+    font-weight: 100;
+    font-size: 18;
+
+}
+
+a{
+    color: aqua;
+    
+}
+
+a:hover{
+    color: blue;
+
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+ul,ol{
+    margin-left: 25px;
+}
