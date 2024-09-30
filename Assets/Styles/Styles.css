@@ -55,3 +55,16 @@ a:visited{
 ul,ol{
     margin-left: 25px;
 }
+
+#LAN_Photo_1 {
+
+    float: right;
+}
+
+.articledate{
+
+    font-size: 16px;
+    color: red;
+
+}
+
