@@ -9,11 +9,21 @@
 }
 
 
+
 body{
     background-color: rgb(37, 37, 37);
+    
     width: 80%;
     margin: auto;
 }
+
+.header{
+    position: fixed;
+    margin-top: -5%;
+    margin-left: -10%;
+}
+
+
 
 h1{
     font-weight: 800;
@@ -59,7 +69,8 @@ ul,ol{
 #LAN_Photo_1 {
 
     float: right;
-    width: 300px;
+    width: 500px;
+    margin-top: 11%;
 }
 
 .articledate{
@@ -118,24 +129,26 @@ ul,ol{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     
+    
 }
 
 .article-layout img {
-    width: 100%;
+    width: 300px;
 }
 
 #article-1 {
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 3;
     grid-row: 1 / span 1;
 
 }
 
 #article-2 {
-    grid-column: 1 / span 1;
-    grid-row: 2 / span 1;
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 1;
 }
 
 #article-3 {
-    grid-column: 2 / span 1;
-    grid-row: 2 / span 1;
+    grid-column: 3 / span 3;
+    grid-row: 1 / span 1;
+
 }
