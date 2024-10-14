@@ -27,26 +27,46 @@ body{
 
 h1{
     font-weight: 800;
-    font-size: 28px;
+    font-size: 64px;
+    padding-right: 20%;
     
 }
 
 h2{
-    font-weight: 300;
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 40px;
+    padding-right: 20%;
 }
 
 h4{
-    font-weight: 200;
+    font-weight: 500;
     font-size: 20px;
+    padding-right: 20%;
 
 }
+
+h3{
+    font-weight: 400;
+    font-size: 34px;
+    padding-right: 20%;
+
+}
+
 
 h5{
-    font-weight: 100;
-    font-size: 18;
+    font-weight: 200;
+    font-size: 32px;
+    padding-right: 20%;
 
 }
+
+
+li{
+    font-size: 32px;
+}
+
+
+
 
 a{
     color: aqua;
@@ -70,7 +90,7 @@ ul,ol{
 
     float: right;
     width: 500px;
-    margin-top: 11%;
+    margin-top: 20%;
 }
 
 .articledate{
@@ -82,6 +102,7 @@ ul,ol{
 
 #newsletter {
     margin: auto;
+    margin-top: 5%;
     background-color: whitesmoke;
     padding: 10px;
     width: 450px;
@@ -95,7 +116,7 @@ ul,ol{
     font-family: "Anek Latin";
     font-weight: bold;
     text-transform: uppercase;
-    
+    font-size: larger;
 
 }
 
