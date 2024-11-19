@@ -13,6 +13,7 @@
 body{
     background-color: rgb(37, 37, 37);
     background-image: url(../Images/Webpage\ Homepage\ BG\ Asset\ 1.jpg); 
+    background-position: 0%;
     background-repeat: no-repeat;
     background-size: 100%;
     width: 80%;
@@ -23,6 +24,7 @@ body{
     position: fixed;
     margin-top: -5%;
     margin-left: -10%;
+
 }
 
 
@@ -195,4 +197,10 @@ ul,ol{
     
     }
 
+}
+
+#Homepage_Photo {
+
+    float: right;
+    margin-top: 20%;
 }
