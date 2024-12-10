@@ -195,7 +195,7 @@ ul,ol{
 
 header {
     display: block;
-    background-color: #494949;
+    background-color: rgb(10, 10, 10);
     position: fixed;
     z-index: 1;
     top: 0;
@@ -239,8 +239,12 @@ menu li a {
     background-color: #ff0000;
 }
 
+nav img {
+    height: 75px;
+}
+
 #welcome {
-    background-color: #181818;
+    background-color: #0f0f0f;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -265,4 +269,34 @@ menu li a {
     top: 30%;
     padding: 10px 20px;
     text-align: left;
+}
+
+#blog {
+    background-color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 100px;
+    padding-block: 100px;
+}
+
+#content {
+    background-color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 100px;
+    padding-block: 100px;
+}
+
+#shop {
+    background-color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 100px;
+    padding-block: 100px;
 }
